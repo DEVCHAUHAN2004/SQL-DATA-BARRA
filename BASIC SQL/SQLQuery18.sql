@@ -1,0 +1,9 @@
+--RETRIEVE THE TOP 3 CUSTOMERS WITH HIGHEST SCORE--
+
+SELECT TOP 3 *
+FROM customers
+ORDER BY  score ASC
+
+5	Peter	USA	0
+1	Maria	Germany	350
+4	Martin	Germany	500
