@@ -1,0 +1,9 @@
+CREATE TABLE persons(
+id INT NOT NULL,
+Name VARCHAR(50) NOT NULL,
+Birth_date DATE,
+Phone VARCHAR(50) NOT NULL,
+CONSTRAINT Pk_persons PRIMARY KEY(id)
+);
+SELECT *
+FROM persons
