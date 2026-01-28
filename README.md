@@ -8,7 +8,7 @@ Learning SQL (Structured Query Language) to manage and analyze data like a pro! 
 
 SQL Basics (SELECT, WHERE, ORDER BY) 🐬
 
-Joins & Subqueries 🔗
+Joins & Subqueries 🔗 
 
 Aggregate Functions (COUNT, SUM, AVG) 📊
 
