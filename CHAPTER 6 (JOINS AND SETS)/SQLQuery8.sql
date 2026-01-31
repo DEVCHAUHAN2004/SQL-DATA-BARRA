@@ -1,0 +1,12 @@
+SELECT * FROM customers
+SELECT * FROM orders
+
+--GET ALL CUSTOMERS WHO HAVE NOT PLACED AN ORDER
+SELECT *
+FROM customers AS C
+LEFT JOIN orders AS O
+ON C.id = O.customer_id
+WHERE O.customer_id IS NULL
+
+--4	Martin	Germany	500	NULL	NULL	NULL	NULL
+--5	Peter	UK	    0	NULL	NULL	NULL	NULL

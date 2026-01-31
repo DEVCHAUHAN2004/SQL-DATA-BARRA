@@ -1,0 +1,26 @@
+--INNER JOIN
+--get all customers along with their orders,
+--but only for customers who placed an order.
+
+SELECT *
+FROM customers--
+--1	Maria	Germany	350
+--2	 John	USA	900
+--3	Georg	UK	750
+--4	Martin	Germany	500
+--5	Peter	UK	0
+
+SELECT *
+FROM orders
+--1001	1	2021-01-11	35
+--1002	2	2021-04-05	15
+--1003	3	2021-06-18	20
+--1004	6	2021-08-31	10
+
+SELECT *
+FROM customers AS c
+INNER JOIN orders AS o
+ON c.id =o.customer_id
+--1	Maria	Germany	350	1001	1	2021-01-11	35
+--2	 John	USA	900	1002	2	2021-04-05	15
+--3	Georg	UK	750	1003	3	2021-06-18	20
