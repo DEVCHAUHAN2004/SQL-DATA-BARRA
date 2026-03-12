@@ -8,7 +8,7 @@ Learning SQL (Structured Query Language) to manage and analyze data like a pro! 
 
 
 💡 What I am learning:
-
+ 
 
 SQL Basics (SELECT, WHERE, ORDER BY) 🐬
 
